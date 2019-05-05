@@ -1,4 +1,6 @@
 language: html
+HTML:
+	-"HTML5"
 script:
 	-echo "Deploying!"
 before_install:
