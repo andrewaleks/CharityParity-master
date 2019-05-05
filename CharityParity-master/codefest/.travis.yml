@@ -1,6 +1,8 @@
 language: html
 script:
 	-echo "Deploying!"
+before_install:
+	- gem install rake
 install:
 	-npm install -g firebase-tools
 after_sucess:
